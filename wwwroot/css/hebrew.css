@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'Suez One';
+    src: url('../fonts/SuezOne-Regular.woff2') format('woff2'), url('../fonts/SuezOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ezra SIL SR';
+    src: url('../fonts/ezra/ezrasilsr-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ezra/ezrasilsr-webfont.woff') format('woff'), url('../fonts/ezra/ezrasilsr-webfont.ttf') format('truetype'), url('../fonts/ezra/ezrasilsr-webfont.svg#EzraSILSR') format('svg');
+}
+
+.your-style {
+    font-family: 'Suez One';
+    font-weight: normal;
+    font-style: normal;
+}
+/* Verdana, Geneva, Tahoma, sans-serif
+    @font-face {
+    font-family: 'varela';
+    src: url("../fonts/VarelaRound-Regular.ttf?srf3rx");   
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+body {
+    font-family: 'Ezra SIL SR';
+    text-align: right;
+}
+#main-nav {
+    font-family: 'Suez One';
+    font-size: 18px;
+}
+p  {
+    text-align:right;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}

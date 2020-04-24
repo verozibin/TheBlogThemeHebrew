@@ -1,0 +1,17 @@
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\TheBlogThemeHebrew.deps.json
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\TheBlogThemeHebrew.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Abstractions.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.DisplayManagement.Abstractions.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.DisplayManagement.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Infrastructure.Abstractions.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Liquid.Abstractions.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Localization.Abstractions.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Module.Targets.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Mvc.Core.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\bin\Debug\netcoreapp3.0\OrchardCore.Theme.Targets.dll
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.csprojAssemblyReference.cache
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.csproj.CoreCompileInputs.cache
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.AssemblyInfoInputs.cache
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.AssemblyInfo.cs
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.csproj.CopyComplete
+D:\Orchard\OrchardCore\src\OrchardCore.Themes\TheBlogThemeHebrew\obj\Debug\netcoreapp3.0\TheBlogThemeHebrew.dll
