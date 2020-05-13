@@ -1,41 +1,245 @@
 
 @font-face {
     font-family: 'Suez One';
-    src: url('../fonts/SuezOne-Regular.woff2') format('woff2'), url('../fonts/SuezOne-Regular.woff') format('woff');
+    src: url('../fonts/SuezOne-Regular.woff2') format('woff2'),
+        url('../fonts/SuezOne-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Ezra SIL SR';
-    src: url('../fonts/ezra/ezrasilsr-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/ezra/ezrasilsr-webfont.woff') format('woff'), url('../fonts/ezra/ezrasilsr-webfont.ttf') format('truetype'), url('../fonts/ezra/ezrasilsr-webfont.svg#EzraSILSR') format('svg');
+.font-varela {
+    font-family: 'Varela Round';
+    font-weight: normal;
+    font-style: normal;
 }
 
-.your-style {
+@font-face {
+    font-family: 'Varela Round';
+    src: url('../fonts/varela_round/VarelaRound-Regular.woff2') format('woff2'), url('../fonts/varela_round/VarelaRound-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.font-suez {
     font-family: 'Suez One';
     font-weight: normal;
     font-style: normal;
 }
 /* Verdana, Geneva, Tahoma, sans-serif
-    @font-face {
-    font-family: 'varela';
-    src: url("../fonts/VarelaRound-Regular.ttf?srf3rx");   
-    font-weight: normal;
-    font-style: normal;
-}
+    'Taamey Frank CLM', 'Taamey David CLM', 'Keter YG', 'Cardo', 'Keter Aram Sova'
+    'Suez One',,
 */
 body {
-    font-family: 'Ezra SIL SR';
+    font-family: 'Varela Round', 'Suez One', serif;
     text-align: right;
+    /*    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+         color: gray;
+        one more  color gray: rgba(240, 241, 246, 0.65);
+        background: #fafafa;
+    */
+    color: #2E282C;
+    font-size: 1.2rem;
+    font-weight: 400;
+    /*for white menu nav bar background
+    padding-top:5em;
+        */
 }
-#main-nav {
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: 'Suez One';
+}
+
+.content h1:before, .content h2:before, .content h3:before, .content h4:before, .content h5:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    border-left: 4px solid #ff137c;
+    height: 100%;
+}
+
+.fixed-top {
+    top:5rem;
+}
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.post-title {
+        color: gray;
+    }
+.post-subtitle {
+    font-weight: 200;
+}
+.post-preview  {
+    margin-top:1rem;
+   margin-bottom:2rem;
+}
+ .post-preview > a > .post-subtitle {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+.post-heading h2.subheading,
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin: 10px 0 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.left-line {
+     margin-left:-20px;
+    padding-left:23px;
+    box-shadow: inset 3px 0 0 0 rgba(0, 0, 0, 0.84);
+}
+.widget-container-title h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #f0f0f0;
+}
+
+#mainNav {
+    font-family: 'Varela Round', sans-serif;
+    text-align:center;
+}
+    #mainNav .navbar-nav > li.nav-item > a {
+        font-size: 1.2rem;
+        font-weight: 200;
+        /* for white static background
+        color:#212529;*/
+    }
+.main-nav {
     font-family: 'Suez One';
     font-size: 18px;
 }
-p  {
-    text-align:right;
+    .main-nav .navbar-nav > li.nav-item > a {
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+p {
+    text-align: right;
+    font-family: 'Karla', 'Arial', 'sans-serif';
+    margin-top: 2rem;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.003em;
+    margin-bottom: -0.46em;
+    word-break: break-word;
+    color: rgba(0, 0, 0, 0.84);
+    font-style:normal;
+    font-weight:400;
+    /*
+    margin-bottom: 1.2rem;
+    color: #2E282C;*/
+    /*font-family:'Open Sans', 'serif', 'Varela Round', 'Times New Roman';*/
 }
-img {
+    p.aside {
+        text-align: right;
+        font-family: 'sans-serif';
+        margin-top: 1.6rem;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        letter-spacing: -0.003rem;
+        margin-bottom: 1.46em;
+        word-break: break-word;
+        color: rgba(0, 0, 0, 0.84);
+        font-style: normal;
+        font-weight: 100;
+        /*
+    margin-bottom: 1.2rem;
+    color: #2E282C;*/
+        /*font-family:'Open Sans', 'serif', 'Varela Round', 'Times New Roman';*/
+    }
+img1 {
     width: 100%;
     max-width: 400px;
     height: auto;
+}
+.blog-box {
+   
+}
+.blog-image img {
+   /* width: 613px;
+    height: 280px;*/
+    overflow: hidden;
+    margin-top: 10px;
+    padding: 10px;
+    /*border: 1px dotted #ccc;*/
+    display: block;
+}
+ .opacity{
+    transition: opacity 400ms ease 0ms;
+}
+.opacity-1{
+    opacity:1;
+}
+.vz {
+    margin-bottom: 24px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+    border-radius: 5px;
+    padding: 23px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.eq {
+    padding-right: 24px;
+    padding-left: 24px;
+    display: block;
+
+}
+
+
+
+.vy {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+}
+
+
+.vx {
+    border-radius: 5px;
+}
+
+
+.vw {
+    padding: 23px 0px;
+}
+.oz {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.r {
+    display: block;
+}
+
+.c {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Position the items 
+    // &:nth-child(2) top: 25%;
+    // &:nth-child(3) top: 50%;
+    // &:nth-child(4) top: 75%;
+        */
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }

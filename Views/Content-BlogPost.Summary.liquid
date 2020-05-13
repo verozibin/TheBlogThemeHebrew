@@ -1,17 +1,42 @@
-<div class="post-preview">
-    {% a display_for:Model.ContentItem %}
-        <h2 class="post-title">
+<div class="container post-preview border rounded ">
+    <div class="p-4">
+        {% a display_for:Model.ContentItem %}
+        <h3 class="section-subheading p-4">
             {{ Model.ContentItem.DisplayText }}
-        </h2>
-        <h3 class="post-subtitle">
-            {{ Model.ContentItem.Content.BlogPost.Subtitle.Text }}
         </h3>
-    {% enda %}
-    <p class="post-meta">
-        {% assign format = "MMMM dd, yyyy" | t %}
-        {% assign dateTime = "DateTime" | shape_new: utc: Model.ContentItem.CreatedUtc, format: format | shape_stringify %}
-        {{ "Posted by" | t }} <a href="#">{{ Model.ContentItem.Owner }}</a> {{ "on {0}" | t: dateTime | raw }}
-    </p>
+        {% assign imagePath = Model.ContentItem.Content.BlogPost.Image.Paths.first %}
+        {% if imagePath != nul %}
+
+        <!--| resize_url: width:60, height: 60, mode: 'crop' img-fluid -->
+        
+            <div class="">
+                <img class="img-fluid" src="{{ imagePath | asset_url }}" ></img>
+            </div>
+       
+        {% endif %}
+        <div calss="p-4"> 
+        <h5 class="card-title text-muted p-2">
+            {{ Model.ContentItem.Content.BlogPost.Subtitle.Text }}
+        </h5>
+        {% enda %}
+        <div class="row">
+            <div class="col-12  ">
+        <small class="text-muted">
+            {{ Model.Content.MarkdownBodyPart | shape_render }}
+        </small>
+            </div>
+            <div class="col">
+        <small class="post-meta p-3" style="float:left;">
+            {% assign format = " dd MMMM, yyyy" | t %}
+            {% assign dateTime = "DateTime" | shape_new: utc: Model.ContentItem.CreatedUtc, format: format | shape_stringify %}
+            <!-- {{ "כתב" | t }} <a href="#">{{ Model.ContentItem.Owner }}</a>-->
+            {{ " {0}" | t: dateTime | raw }}
+            {{Model.ContentItem.BlogPost.CommonPart.FullName.Text }}
+            {{Model.ContentItem.FullName |render_shape }}
+        </small>
+            </div>
+        </div>
+        </div>
+    </div>
 </div>
-<br>
-<hr>
+
